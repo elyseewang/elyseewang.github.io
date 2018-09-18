@@ -1,0 +1,148 @@
+*{ margin: 0; padding: 0 }
+html{
+    height: 100%;
+    width:100%;
+}
+body{
+    height:100%;
+    width: 100%;
+    font-family: 'Pragati Narrow', sans-serif;
+    overflow: auto;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+a:active{
+    color:black;
+    text-decoration:none;
+}
+a:visited{
+    color:black;
+    text-decoration:none;
+}
+
+.title{
+    position:relative;
+    width: 100%;
+    text-align:center;
+    font-size: 4.5vw;
+    letter-spacing: 1vw;
+    margin-top: 5.5%;
+}
+
+
+title p{
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+
+ul{
+    list-style-type: none;
+    font-size: 1.1vw;
+    line-height: 0.7vw;
+    
+}
+
+.nav{
+    position:relative;
+    display: inline-block;
+    float:right;
+    padding: 1.5%;
+    width:100%;
+    background-color: #F7F7F7;
+
+}
+
+ul li{
+    float:right;
+    padding-left: 4%;
+    padding-right:4%;
+}
+
+.filters{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    
+}
+
+.filters ul{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    font-size: 1.2vw;
+    letter-spacing: 0.3vw;
+    line-height: 100%;
+    text-align:center;
+    margin-left: 26%;
+    
+}
+.filters ul li{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top:1%;
+    padding-bottom:1%;
+    float:left;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex: 100%;
+    max-width:100%;
+}
+
+/*
+.gallery_content{
+    flex: 100%;
+    max-width:100%;
+}
+*/
+
+.gallery img{
+    margin-top: 2%;
+    vertical-align: middle;
+    width: 30%;
+    align-self:center;
+}
+
+/*MAKE IT RESPONSIVE!!! */
+
+@media screen and (max-width: 600px) {
+    .gallery_content {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .gallery img{
+        width:100%;
+    }
+    
+    .row_test{
+        padding-left:0;
+    }
+    .row_test img{
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+.secret{
+    color:white;
+}
+
+.row_test{
+    display:inline-block;
+    height:100%;
+    width:100%;
+    align-content: center;
+    padding-left:2%;
+}
+
+.row_test img{
+    padding-right:1%;
+    padding-left:1%;
+}
+
