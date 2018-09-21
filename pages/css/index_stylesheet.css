@@ -66,3 +66,189 @@ ul li{
     padding-left: 4%;
     padding-right:4%;
 }
+
+.main-rect{
+    width:100%;
+    background:transparent;
+}
+.main-rect:before{
+    content"";
+    display:block;
+    padding-top:100%;
+}
+.flex-rectangle-e{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top: 20%;
+    margin-left:30%;
+    margin-right: 0%;
+    float:left;
+
+    
+}
+.flex-rectangle-e:before{
+    content: "";
+    display: block;
+    padding-top: 400%;
+} 
+                        /*learned from https://bethsoderberg.com/blog/making-responsive-: ;rectangles-and-squares-with-css/*/
+.flex-rectangle-e:hover{
+    background-color:#E7FCFF;}
+
+/*.flex-rectangle-w{
+    width: 5%;
+    background: #ca0164;
+    margin-top:25%;
+    margin-right: 0.5%;
+    margin-left: 0%;
+    float:right;
+}
+*/
+.flex-rectangle-w:before {
+    content: "";
+    display: block;
+    padding-top: 400%;
+}
+
+.flex-rectangle-l{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top: 20%;
+    margin-right: 21%;
+    margin-left: 0%;
+    float: right;
+    text-align: center;
+    color:white;
+}
+
+.flex-rectangle-l:before{
+    content: "";
+    display: block;
+    padding-top: 400%;
+}
+.flex-rectangle-l:hover{
+    background-color:#FC2A51;   
+}
+
+.flex-rectangle-a{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top:25%;
+    margin-right: 0.5%;
+    margin-left: 0%;
+    float:right;   
+}
+.flex-rectangle-a:before {
+    content: "";
+    display: block;
+    padding-top: 400%;
+}    
+.flex-rectangle-a:hover{
+    background-color:#FF626F;   
+}
+.flex-rectangle-y{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top:20%;
+    margin-right: .5%;
+    margin-left: 0%;
+    float:right;
+}
+
+.flex-rectangle-y:before {
+    content: "";
+    display: block;
+    padding-top: 400%;
+}
+.flex-rectangle-y:hover{
+    background-color:#FF787B;}
+
+
+.flex-rectangle-s{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top:25%;
+    margin-right: .5%;
+    margin-left: 0%;
+    float:right;  
+}
+
+.flex-rectangle-s:before{
+    content: "";
+    display: block;
+    padding-top:400%;
+}
+
+.flex-rectangle-s:hover{
+    background-color:#FF9496;}
+
+.flex-rectangle-ee{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top:20%;
+    margin-right: .5%;
+    margin-left: 0%;
+    float:right;
+}
+
+.flex-rectangle-ee:before{
+    content: "";
+    display: block;
+    padding-top:400%;
+}
+.flex-rectangle-ee:hover{
+    background-color:#FFB2AF;}
+
+.flex-rectangle-g{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top:25%;
+    margin-right: .5%;
+    margin-left: 0%;
+    float:right; 
+}
+.flex-rectangle-g:before{
+    content: "";
+    display: block;
+    padding-top:400%;
+}
+.flex-rectangle-g:hover{
+    background-color:#FFCBC8;}
+
+.flex-rectangle-n{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top:20%;
+    margin-right: 0.5%;
+    margin-left: 0%;
+    float:right; 
+}
+
+.flex-rectangle-n:before{
+   content: "";
+    display: block;
+    padding-top: 400%; 
+}
+
+.flex-rectangle-n:hover{
+    background-color:#FFE1DF;}
+
+.flex-rectangle-x{
+    width: 5%;
+    background:  rgba(100,230,255,0.5);
+    margin-top:25%;
+    margin-right: .5%;
+    margin-left: 0%;
+    float:right; 
+}
+
+.flex-rectangle-x:before{
+   content: "";
+    display: block;
+    padding-top: 400%; 
+}
+
+.flex-rectangle-x:hover{
+    background-color:#F0EEFC;
+    }
+
